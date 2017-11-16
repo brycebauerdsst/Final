@@ -1,0 +1,82 @@
+@font-face {
+  font-family: YouMurderer;
+  src:url(youmurdererbb_reg.ttf);
+}
+#one{text-align: center;
+font-size: 80px;
+font-family: YouMurderer;
+}
+#two{text-align: center;
+font-size: 60px;
+font-family: YouMurderer;
+}
+#pizza{text-align: center;
+font-size: 100px;
+font-family: YouMurderer;
+}
+html, body {
+  margin:0px;
+  padding:0px;
+}
+
+header {
+  position:fixed;
+  z-index: 1;
+  width:100%;
+  height: 120px;
+  background:rgba(0,0,0,0.1);
+}
+
+main {
+  min-height: 400px;
+  background-color: #854D27;
+}
+
+footer {
+  height: 150px;
+  background-color: #4F000B;
+}
+
+.wrapper {
+  width: 980px;
+  margin: auto;
+}
+
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+header h1 {
+  float: left;
+  font-size: 60px;
+  margin: 0;
+  padding-top: 40px;
+  font-family: Arial, sans-serif;
+  display: flexbox;
+  justify-content: flex-start;
+}
+
+
+header h1 a {
+  text-decoration: none;
+  color: #DDA700;
+}
+
+header h1 a:hover {
+  color: red;
+}
+
+
+#hero {
+ background:url(http://halloweennewengland.com/files/8514/9124/7910/Corn_Maze_The_Bloodfields_Halloween_New_England.png);
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+}
+
+body{
+  background-color: #E28413
+}
